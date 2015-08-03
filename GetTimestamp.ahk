@@ -7,17 +7,13 @@
 
 ; Directives, keywords
 #SingleInstance Force
+
+/*
+	Time-String
+*/
 #p::
-
-;FormatTime, TimeString
-;MsgBox The current time and date (time first) is %TimeString%.
-
-; FormatTime, TimeString, 20050423220133, dddd MMMM d, yyyy hh:mm:ss tt
-; FormatTime, TimeString, , dddd MMMM d, yyyy hh:mm:ss tt
 FormatTime, TimeString, , yyyy.MM.dd-hh:mm
 Send, %TimeString%
-
-; MsgBox The specified date and time, when formatted, is %TimeString%.
 return
 
 /* 
