@@ -19,3 +19,14 @@ Send, %TimeString%
 
 ; MsgBox The specified date and time, when formatted, is %TimeString%.
 return
+
+/* 
+	Abkuerzungen
+*/
+  ::btw::by the way
+  ::Plie::Hallo Frau Plieschnegger,
+
+
+; Label, hotkey, hotstring
+  Label:
+  #v::MsgBox You pressed Win+V
