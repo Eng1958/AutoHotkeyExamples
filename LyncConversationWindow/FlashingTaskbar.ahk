@@ -8,6 +8,7 @@
 	* Date:		04.08.2015
 	**********************************************************
 */
+
 DetectHiddenWindows, On
 ; Script_Hwnd := WinExist("ahk_class AutoHotkey ahk_pid " DllCall("GetCurrentProcessId"))
 Script_Hwnd := WinExist("ahk_class LyncConversationWindowClass ahk_pid " DllCall("GetCurrentProcessId"))
@@ -15,7 +16,7 @@ DetectHiddenWindows, Off
 ; Register shell hook to detect flashing windows.
 DllCall("RegisterShellHookWindow", "uint", Script_Hwnd)
 OnMessage(DllCall("RegisterWindowMessage", "str", "SHELLHOOK"), "ShellEvent")
-;...
+
 ShellEvent(wParam, lParam) {
     if (wParam = 0x8006) ; HSHELL_FLASH
     {   ; lParam contains the ID of the window which flashed:
