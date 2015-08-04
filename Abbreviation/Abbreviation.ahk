@@ -23,6 +23,7 @@ return
 ::btw::by the way
 ::HPlie::Hallo Frau Plieschnegger,
 ::GPlie::Guten Morgen Frau Plieschnegger,
+::GMail::dieter.engemann@gmail.com
 
 /*
   * Ausgabe des Datums und der Uhrzeit im Format  yyyy.MM.dd-hh:mm

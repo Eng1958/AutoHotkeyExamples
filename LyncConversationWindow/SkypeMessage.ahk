@@ -1,15 +1,17 @@
 #SingleInstance force
 ;~ ; Example 3
-;~ if WinExist("ahk_class LyncConversationWindowClass") 
-;~ {
-	;~ MsgBox "found"
-    ;~ WinActivate  ; Uses the last found window.
-	;~ WinActivate, ahk_class LyncConversationWindowClass
-;~ ;	WinSetTitle, This is a new Title
-;~ ;	WinMaximize
-;~ }
+if WinExist("ahk_class LyncConversationWindowClass") 
+{
+ MsgBox "found"
+ WinActivate  ; Uses the last found window.
+ WinActivate, ahk_class LyncConversationWindowClass
+ WinGetTitle, Title, A
+ MsgBox, The active window is "%Title%".
+ ; WinSetTitle, This is a new Title
+; WinMaximize
+}
 
-;~ MsgBox % "The active window's ID is " . WinExist("A")
+MsgBox % "The active window's ID is " . WinExist("A")
 
 /* WasFlashing := DllCall("FlashWindow", "uInt", hwnd, "int", true)
  * 
@@ -24,7 +26,7 @@
  * 
  */
 
-
+return
 
 DetectHiddenWindows, On
 ;; Script_Hwnd := WinExist("ahk_class AutoHotkey ahk_pid " DllCall("GetCurrentProcessId"))
