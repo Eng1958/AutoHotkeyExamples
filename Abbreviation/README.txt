@@ -3,6 +3,8 @@ README
 
 Autohotkey-Scripte
 
-mit Update
+mit HotKeys/Abkürzungen
 
 Male sehen wie es weitergeht
+
+04.08.2105

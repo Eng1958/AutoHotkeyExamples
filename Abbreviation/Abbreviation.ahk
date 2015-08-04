@@ -8,6 +8,7 @@
 ; Directives, keywords
 #SingleInstance Force
 
+Menu, Tray, Icon, Abbreviation.ico,, 1
 /*
 	Time-String
 */
