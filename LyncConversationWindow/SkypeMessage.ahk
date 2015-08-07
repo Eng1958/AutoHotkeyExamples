@@ -26,6 +26,8 @@ MsgBox % "The active window's ID is " . WinExist("A")
  * 
  */
 
+
+
 return
 
 DetectHiddenWindows, On
