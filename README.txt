@@ -1,8 +1,6 @@
 README
 ======
-
+07.08.2015
 Autohotkey-Scripte
 
-mit Update
-
-Male sehen wie es weitergeht
+die so benötigt und eingesetzt werden.
