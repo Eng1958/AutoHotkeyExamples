@@ -17,10 +17,11 @@ FormatTime, TimeString, , yyyy.MM.dd-hh:mm
 Send, %TimeString%
 return
 
-/* 
+/*
 	Abkuerzungen / ShortCuts
 */
 ::btw::by the way
+::gm::Guten Morgen 
 ::HPlie::Hallo Frau Plieschnegger,
 ::GPlie::Guten Morgen Frau Plieschnegger,
 ::GMail::dieter.engemann@gmail.com
